@@ -1,0 +1,26 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bond (0.5.1)
+    coderay (1.1.0)
+    iruby (0.2.8)
+      bond (~> 0.5)
+      mimemagic (~> 0.3)
+      multi_json (~> 1.11)
+    method_source (0.8.2)
+    mimemagic (0.3.1)
+    multi_json (1.11.2)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rbczmq (1.7.9)
+    slop (3.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  iruby
+  pry
+  rbczmq
